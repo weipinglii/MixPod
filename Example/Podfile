@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MixPod_Example' do
+  pod 'MixPod', :path => '../'
+
+  target 'MixPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
