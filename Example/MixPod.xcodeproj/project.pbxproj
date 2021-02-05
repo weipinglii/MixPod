@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DF5B72686054F1B88C933B7 /* Pods_MixPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D8966000F3888365B87D1B /* Pods_MixPod_Example.framework */; };
+		171D8D7AF435F04847BFBBEF /* libPods-MixPod_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE9CD108D719275E75E0C0D /* libPods-MixPod_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DF626992A087FBDDDB6F1B02 /* Pods_MixPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1DDDB7FB71B7C7CD455E04 /* Pods_MixPod_Tests.framework */; };
+		A48BA66244F7E317CE62EBFC /* libPods-MixPod_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BE3FCDF8644FB54260801B /* libPods-MixPod_Tests.a */; };
+		F8CBDFA925CBF8DD004B52F4 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CBDFA825CBF8DD004B52F4 /* Dummy.swift */; };
+		F8CBDFAD25CBF9C3004B52F4 /* SwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CBDFAC25CBF9C3004B52F4 /* SwiftVC.swift */; };
+		F8CBDFB225CBF9DB004B52F4 /* OCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBDFB125CBF9DB004B52F4 /* OCVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +41,9 @@
 
 /* Begin PBXFileReference section */
 		006B7DBC481074C2BFA6A908 /* Pods-MixPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPod_Example.release.xcconfig"; path = "Target Support Files/Pods-MixPod_Example/Pods-MixPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D057D393D1E37C9C430E957 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D057D393D1E37C9C430E957 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		218ADBEA6D671995F19C7B54 /* Pods-MixPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-MixPod_Example/Pods-MixPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CE8E3F4C0802E2772A3747D /* MixPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MixPod.podspec; path = ../MixPod.podspec; sourceTree = "<group>"; };
+		2CE8E3F4C0802E2772A3747D /* MixPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MixPod.podspec; path = ../MixPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* MixPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +66,15 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751F1F8389C1265BFC1B2330 /* Pods-MixPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MixPod_Tests/Pods-MixPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B32EE11FBC75701420B02CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		95BE3FCDF8644FB54260801B /* libPods-MixPod_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixPod_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B32EE11FBC75701420B02CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6AF45CE80FB209BF5B735CC /* Pods-MixPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MixPod_Tests/Pods-MixPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F4D8966000F3888365B87D1B /* Pods_MixPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB1DDDB7FB71B7C7CD455E04 /* Pods_MixPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE9CD108D719275E75E0C0D /* libPods-MixPod_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixPod_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CBDFA725CBF8DD004B52F4 /* MixPod_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixPod_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8CBDFA825CBF8DD004B52F4 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		F8CBDFAC25CBF9C3004B52F4 /* SwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVC.swift; sourceTree = "<group>"; };
+		F8CBDFB025CBF9DB004B52F4 /* OCVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCVC.h; sourceTree = "<group>"; };
+		F8CBDFB125CBF9DB004B52F4 /* OCVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3DF5B72686054F1B88C933B7 /* Pods_MixPod_Example.framework in Frameworks */,
+				171D8D7AF435F04847BFBBEF /* libPods-MixPod_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +96,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DF626992A087FBDDDB6F1B02 /* Pods_MixPod_Tests.framework in Frameworks */,
+				A48BA66244F7E317CE62EBFC /* libPods-MixPod_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +131,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F4D8966000F3888365B87D1B /* Pods_MixPod_Example.framework */,
-				FB1DDDB7FB71B7C7CD455E04 /* Pods_MixPod_Tests.framework */,
+				ECE9CD108D719275E75E0C0D /* libPods-MixPod_Example.a */,
+				95BE3FCDF8644FB54260801B /* libPods-MixPod_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,12 +142,17 @@
 			children = (
 				6003F59C195388D20070C39A /* WPAppDelegate.h */,
 				6003F59D195388D20070C39A /* WPAppDelegate.m */,
+				F8CBDFAC25CBF9C3004B52F4 /* SwiftVC.swift */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				F8CBDFB025CBF9DB004B52F4 /* OCVC.h */,
+				F8CBDFB125CBF9DB004B52F4 /* OCVC.m */,
 				6003F5A5195388D20070C39A /* WPViewController.h */,
 				6003F5A6195388D20070C39A /* WPViewController.m */,
+				F8CBDFA825CBF8DD004B52F4 /* Dummy.swift */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				F8CBDFA725CBF8DD004B52F4 /* MixPod_Example-Bridging-Header.h */,
 			);
 			name = "Example for MixPod";
 			path = MixPod;
@@ -193,7 +206,6 @@
 				751F1F8389C1265BFC1B2330 /* Pods-MixPod_Tests.debug.xcconfig */,
 				E6AF45CE80FB209BF5B735CC /* Pods-MixPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +220,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				29912D9A5712895B8932755A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +259,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = weiping.li;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 1210;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,24 +332,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29912D9A5712895B8932755A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MixPod_Example/Pods-MixPod_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MixPod/MixPod.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MixPod.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MixPod_Example/Pods-MixPod_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		367832828776232CCDA3C5F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,9 +361,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CBDFB225CBF9DB004B52F4 /* OCVC.m in Sources */,
 				6003F59E195388D20070C39A /* WPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WPViewController.m in Sources */,
+				F8CBDFA925CBF8DD004B52F4 /* Dummy.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F8CBDFAD25CBF9C3004B52F4 /* SwiftVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,13 +494,18 @@
 			baseConfigurationReference = 218ADBEA6D671995F19C7B54 /* Pods-MixPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixPod/MixPod-Prefix.pch";
 				INFOPLIST_FILE = "MixPod/MixPod-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixPod/MixPod_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +515,17 @@
 			baseConfigurationReference = 006B7DBC481074C2BFA6A908 /* Pods-MixPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixPod/MixPod-Prefix.pch";
 				INFOPLIST_FILE = "MixPod/MixPod-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixPod/MixPod_Example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -525,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 751F1F8389C1265BFC1B2330 /* Pods-MixPod_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -550,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6AF45CE80FB209BF5B735CC /* Pods-MixPod_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

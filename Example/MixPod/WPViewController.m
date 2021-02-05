@@ -7,6 +7,7 @@
 //
 
 #import "WPViewController.h"
+#import "MixPod_Example-Swift.h"
 
 @interface WPViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blueColor];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    SwiftVC *vc = [[SwiftVC alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

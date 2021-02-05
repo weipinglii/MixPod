@@ -1,0 +1,16 @@
+PODS:
+  - MixPod (0.1.0)
+
+DEPENDENCIES:
+  - MixPod (from `../`)
+
+EXTERNAL SOURCES:
+  MixPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MixPod: 1bd28c0a275997e138f2e3c13d8c1bf6bfe10096
+
+PODFILE CHECKSUM: 787a8bf9104965575b224f8236d7b91b3250ed5b
+
+COCOAPODS: 1.10.0
