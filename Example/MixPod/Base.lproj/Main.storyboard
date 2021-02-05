@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +18,47 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="TwB-ww-gSx">
+                                <rect key="frame" x="132" y="273.5" width="111" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPb-sa-0Jv">
+                                        <rect key="frame" x="0.0" y="0.0" width="111" height="30"/>
+                                        <state key="normal" title="TestMainProject"/>
+                                        <connections>
+                                            <action selector="testMainProject:" destination="whP-gf-Uak" eventType="touchUpInside" id="aRd-q1-zOT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1V-Xi-Rg7">
+                                        <rect key="frame" x="0.0" y="30" width="80" height="30"/>
+                                        <state key="normal" title="TestMixPod"/>
+                                        <connections>
+                                            <action selector="testMixPod:" destination="whP-gf-Uak" eventType="touchUpInside" id="MQY-fc-tcN"/>
+                                            <action selector="testMixProject:" destination="whP-gf-Uak" eventType="touchUpInside" id="Pvj-d6-mvE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f6-Yx-bDX">
+                                        <rect key="frame" x="0.0" y="60" width="91" height="30"/>
+                                        <state key="normal" title="TestSwiftPod"/>
+                                        <connections>
+                                            <action selector="testSwiftPod:" destination="whP-gf-Uak" eventType="touchUpInside" id="jsC-KA-vqR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaF-Ev-yMr">
+                                        <rect key="frame" x="0.0" y="90" width="78" height="30"/>
+                                        <state key="normal" title="TestOCPod"/>
+                                        <connections>
+                                            <action selector="testOCPod:" destination="whP-gf-Uak" eventType="touchUpInside" id="jH2-q5-URn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TwB-ww-gSx" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="F3M-Qo-seJ"/>
+                            <constraint firstItem="TwB-ww-gSx" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="ace-Oz-9Lh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

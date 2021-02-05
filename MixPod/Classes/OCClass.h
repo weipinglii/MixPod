@@ -9,7 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface OC : NSObject
+@interface OCClass : NSObject
+
+- (void)log:(NSString *)message;
++ (void)log:(NSString *)message;
 
 @end
 

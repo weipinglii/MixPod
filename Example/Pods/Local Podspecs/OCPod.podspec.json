@@ -1,0 +1,22 @@
+{
+  "name": "OCPod",
+  "version": "0.1.0",
+  "summary": "A short description of OCPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weiping.li/OCPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weiping.li": "weiping.li@ximalaya.com"
+  },
+  "source": {
+    "git": "https://github.com/weiping.li/OCPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "OCPod/Classes/**/*"
+}

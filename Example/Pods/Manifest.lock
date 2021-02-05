@@ -1,16 +1,26 @@
 PODS:
   - MixPod (0.1.0)
+  - OCPod (0.1.0)
+  - SwiftPod (0.1.0)
 
 DEPENDENCIES:
   - MixPod (from `../`)
+  - OCPod (from `../../OCPod`)
+  - SwiftPod (from `../../SwiftPod`)
 
 EXTERNAL SOURCES:
   MixPod:
     :path: "../"
+  OCPod:
+    :path: "../../OCPod"
+  SwiftPod:
+    :path: "../../SwiftPod"
 
 SPEC CHECKSUMS:
   MixPod: 1bd28c0a275997e138f2e3c13d8c1bf6bfe10096
+  OCPod: cc32e58687660f302f6fcc8061bd89944baaf702
+  SwiftPod: fed44ba379ef803177ad7bf2f787fd15116bddf2
 
-PODFILE CHECKSUM: 787a8bf9104965575b224f8236d7b91b3250ed5b
+PODFILE CHECKSUM: bfdb00fe4083419b616185a501069ee7388ece60
 
 COCOAPODS: 1.10.0

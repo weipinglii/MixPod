@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "OCClass.h"
 
-FOUNDATION_EXPORT double MixPodVersionNumber;
-FOUNDATION_EXPORT const unsigned char MixPodVersionString[];
+FOUNDATION_EXPORT double SwiftPodVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftPodVersionString[];
 
